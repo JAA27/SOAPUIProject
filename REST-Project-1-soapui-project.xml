@@ -1607,6 +1607,12 @@ log.info ("  --  "+testRunner.testCase.getSetupScript());
 log.info ("  --  "+testRunner.testCase.getTearDownScript());</script>
         </con:config>
       </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script" id="578b8a99-35f0-464d-9dfd-c01d62111a04">
+        <con:settings/>
+        <con:config>
+          <script/>
+        </con:config>
+      </con:testStep>
       <con:setupScript>log.info "setup for Test1"</con:setupScript>
       <con:tearDownScript>log.info "teardown for Test1"</con:tearDownScript>
       <con:properties/>
